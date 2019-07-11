@@ -44,16 +44,16 @@ public class loginStepdefs {
 	    driver.findElement(By.name("value"));
 	}
 
-	@Then("^user shall be directed to home page$")
+	/*@Then("^user shall be directed to home page$")
 	public void user_shall_be_directed_to_home_page() throws Throwable {
-		String expected1="Home";
-		String actual1=driver.getTitle();
+		String expected1=driver.findElement(By .id("errormsg")).getText();
+		String actual1=" User Registered Succesfully!!! Please login";
 	    //Assert.assertequals("Home"1,actual1);
 		if(expected1==actual1)
 		{
-			System.out.println("Home page directed");
+			System.out.println("Registered succesfully");
 		}
-	}
+	}*/
 
 
 }

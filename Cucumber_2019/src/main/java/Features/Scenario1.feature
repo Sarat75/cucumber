@@ -8,7 +8,7 @@ Feature: Register to testme app
     Given User shall launch testme app url
     And user clicks on sign up
     When user provides data
-    And user clicks on register
+    And end user clicks on register
     #Then user is directed to testme app login page
    
 

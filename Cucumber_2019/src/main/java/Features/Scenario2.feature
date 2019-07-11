@@ -7,9 +7,9 @@ Feature: Testmeapp login for a registered user
     And user then clicks on the sign in button
     When user enters "<username>" and "<password>"
     And user clicks on login button
-    Then user is directed to testme app home page
+    #Then user is directed to testme app home page
 
     Examples: 
       | username     | password    |
       | Lalitha      | Password123 |
-      | Chaithu13421 | Chikki689   |
+      | aditya147    |   pass123   |
